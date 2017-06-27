@@ -1,5 +1,5 @@
 # LED Simluator
-This is a MQTT LED simulator written in Ruby.
+This is an MQTT LED simulator written in Ruby.
 To launch it, simply use the following call:
 
 ```bash
