@@ -15,26 +15,26 @@ If the dependencies are not installed already, make sure you have [bundler](http
 
 ## Controlling the simulator
 ### Setting the color
-The LED color can be set via the following endpoint: /rgb/set
+The LED color can be set via the following endpoint: /rgb/set  
 It needs to be appended to the channel, which was defined when launching the simulator.
 
-Examples:
-`led/1/rgb/set green`
-`led/1/rgb/set yellow`
-`led/1/rgb/set #ffffff`
-`led/1/rgb/set #000000`
+#### Examples:
+`led/1/rgb/set green`  
+`led/1/rgb/set yellow`  
+`led/1/rgb/set #ffffff`  
+`led/1/rgb/set #000000`  
 
 ### Turning on and off the LED
-The LED can also be turned on and off via the endpoint: /set
+The LED can also be turned on and off via the endpoint: /set  
 This also needs to be appended to the channel when launching the simulator.
 
-Examples:
-`led/1/set on`
-`led/1/set off`
+#### Examples:
+`led/1/set on`  
+`led/1/set off`  
 
 ## Reading the current status
-Whenever the status of the LED has changed, it will publish its current state and color on the following channels: default channel, /rgb/status.
+Whenever the status of the LED has changed, it will publish its current state and color on the following channels: the default channel & /rgb/status.
 
-Examples:
-`led/1 on`
-`led/1/rgb/status green`
+#### Examples:
+`led/1 on`  
+`led/1/rgb/status green`  
